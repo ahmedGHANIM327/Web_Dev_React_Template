@@ -1,0 +1,149 @@
+#contact
+{
+    background-color: #47199F;
+    margin: 50px  0 0;
+    padding: 0;
+}
+
+#contact .title-section h1
+{
+    color: #fc60a8 !important;
+}
+
+.sub-bloc-contact
+{
+    margin: 30px 0;
+    padding: 0 4%;
+}
+
+/*Social contact */
+.social-contact ul
+{
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.social-contact ul li
+{
+    margin: 20px 0;
+}
+
+.social-contact ul li a
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 1s;
+    text-decoration: none;
+}
+
+.social-contact ul li a:hover
+{
+    color: #fc60a8;
+    transform: scale(1.1);
+}
+
+.social-contact ul li svg
+{
+    margin-right: 12px;
+    color: #fc60a8;
+    background-color: rgba(252,96,168,0.1);
+    border: #fc60a8 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.form-contact .name , .form-contact .email
+{
+    width: 45%;
+    margin: 18px 2.5%;
+}
+
+.form-contact .subject , .form-contact .message
+{
+    width: 95%;
+    margin: 18px 2.5%;
+}
+
+.form-contact .input label
+{
+    color: #fc60a8;
+}
+
+#standard-name , #standard-email, #standard-select-subject , #standard-multiline-message
+{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#standard-name:focus , #standard-email:focus , #standard-select-subject:focus , #standard-multiline-message:focus
+{
+    color: #fff;
+}
+
+.MuiInputBase-formControl::before
+{
+    border-bottom:1px solid #fc60a8 !important;
+}
+
+.MuiInputBase-formControl::after
+{
+    border-bottom:2px solid #fff !important;
+}
+
+
+.form-contact .input svg
+{
+    color: #fc60a8;
+}
+
+/* action send button*/
+.action-send
+{
+    margin-top: 15px;
+    padding: 10px 2.5%;
+    float: right;
+}
+
+.action-send button
+{
+    border: #fc60a8 1px solid;
+    font-size: 20px;
+    padding: 15px 25px;
+    display: flex;
+    background-color: #fc60a8;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.action-send button svg
+{
+    margin-left: 10px;
+}
+
+/* Bloc map */
+.bloc-map
+{
+    background-color: #fff;
+    padding: 0 !important;
+}
+
+/* Style for mobile */
+@media screen and (max-width:820px)
+{
+    .social-contact ul
+    {
+        padding-inline-start: 20px;
+    }
+
+    .bloc-map
+    {
+        height: 250px;
+    }
+}
+

@@ -1,0 +1,55 @@
+/* Records section styles */
+#numbers
+{
+    background-color: #47199F;
+    border-radius: 15px;
+    margin: 150px 8% 70px;
+    padding: 25px;
+}
+
+/* Styles for each bloc */
+#numbers .bloc-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Icon styles */
+#numbers .bloc-item svg
+{
+    padding: 0.5em;
+    border: #fc60a8 1.5px solid;
+    border-radius: 50%;
+    font-size: 45px;
+    background-color: rgba(252,96,168,0.2);
+    color: #fc60a8;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+/* Number styles */
+#numbers .bloc-item h2
+{
+    margin: 0.4em 0;
+    font-size: 40px;
+    color: #fc60a8;
+    font-weight: bolder;
+}
+
+/* Title styles */
+#numbers .bloc-item h3
+{
+    margin: 0;
+    font-size: 35px;
+    color:#fff;
+}
+
+/* Style for mobile */
+@media screen and (max-width:820px)
+{
+    #numbers .bloc-item
+    {
+        margin-bottom: 50px;
+    }   
+}

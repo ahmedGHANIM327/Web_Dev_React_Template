@@ -1,0 +1,31 @@
+/* Title section */
+.title-section
+{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.title-section h1
+{
+  color: #47199F;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.title-section .divider
+{
+  height: 4px;
+  width: 50px;
+  background-color: #fc60a8;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Bloc Text */
+.bloc-text p
+{
+    text-align: justify;
+    font-weight: bold;
+    color: rgba(71, 25, 159, 0.6);
+}

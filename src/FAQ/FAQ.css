@@ -1,0 +1,98 @@
+/* FAQ section styles */
+#faq
+{
+    margin: 50px 8% 100px;
+}
+
+/*Bloc Text */
+#faq .bloc-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#faq .bloc-text > p
+{
+    margin-top: 80px;
+}
+
+#faq .blocks
+{
+    margin-top: 1em;
+    display: flex;
+}
+
+/* Bloc Image */
+#faq .bloc-image
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Questions bloc */
+.questions-bloc
+{
+    position: relative;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.question
+{
+    border-radius: 15px !important;
+    margin: 0 0 10px;
+    height: fit-content;
+    border: 2px solid #fc60a8;
+    box-shadow: 5px 5px 5px 0px rgba(71, 25, 159, 0.4);
+}
+
+.question-header , .css-o4b71y-MuiAccordionSummary-content
+{
+    margin : 5px 0 !important;
+}
+
+.question h3
+{
+    color : #fc60a8;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.question svg
+{
+    color : #fc60a8;
+    font-weight: bolder;
+}
+
+/* Style for mobile */
+@media screen and (max-width:700px)
+{
+    #faq
+    {
+        margin: 0 4% 50px;
+    }
+
+    #faq .bloc-text
+    {
+        padding: 10px;
+    }
+
+    #faq .bloc-text p
+    {
+        margin : 0;
+        font-size: 12px;
+    }
+
+    .question h3
+    {
+        font-size: 15px;
+    }
+
+    #faq img
+    {
+        width: 100%;
+    }
+}

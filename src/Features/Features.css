@@ -1,0 +1,74 @@
+/* Features section styles */
+#features
+{
+    background-color: #47199F;
+    border-radius: 15px;
+    margin: 100px 8% 70px;
+    padding: 25px;
+}
+
+#features .title-section 
+{
+    margin-bottom: 70px;
+}
+
+#features .title-section h1
+{
+    color: #fc60a8 !important;
+}
+
+/* Styles for each item */
+#features .bloc-item
+{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 15px;
+}
+
+#features .bloc-item svg
+{
+    padding: 0.5em;
+    border: #fc60a8 1.5px solid;
+    border-radius: 10px;
+    background-color: rgba(252,96,168,0.2);
+    color: #fc60a8;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#features .bloc-item svg:hover
+{
+    background-color: #fc60a8;
+    color: #47199F;
+}
+
+#features .bloc-item .content
+{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#features .bloc-item .content h2
+{
+    margin:0;
+    color: #fc60a8;
+}
+
+#features .bloc-item .content p
+{
+    color: #fff;
+    text-align: justify;
+}
+
+/* Style for mobile */
+@media screen and (max-width:700px)
+{
+    #features
+    {
+        border-radius: 10px;
+        margin: 50px 4% 30px;
+    }
+}

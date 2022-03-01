@@ -1,0 +1,102 @@
+/* About section styles */
+#about
+{
+    margin: 100px 8% 50px;
+}
+
+/* Bloc Text */
+#about .bloc-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about .bloc-text h2
+{
+    color: #fc60a8;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#about .blocks
+{
+    margin-top: 1em;
+    display: flex;
+}
+
+#about .blocks .bloc
+{
+    background-color: #fff;
+    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(71, 25, 159, 0.4);
+}
+
+#about .blocks .bloc .icon
+{
+    color : #fc60a8;
+}
+
+#about .blocks .bloc h3
+{
+    color : #47199F;
+    font-size: 20px;
+}
+
+/* Bloc Image */
+#about .bloc-image
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* List Skills */
+#about .skills 
+{
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+}
+
+#about .skills img
+{
+    margin-right:6% ;
+    width: 80px;
+    filter: grayscale(100%);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+#about .skills img:hover
+{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+/* Style for mobile */
+@media screen and (max-width:700px)
+{
+    #about
+    {
+        margin: 0 4% 50px;
+    }
+
+    #about .bloc-text
+    {
+        padding: 10px;
+    }
+
+    #about .blocks .bloc h3
+    {
+        font-size: 15px;
+    }
+
+
+    #about img
+    {
+        width: 100%;
+    }
+}

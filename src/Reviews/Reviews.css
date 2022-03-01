@@ -1,0 +1,77 @@
+/* Reviews section styles */
+#reviews
+{
+    margin: 120px 8% 0px;
+}
+
+/* Carousel */
+.carousel-slider
+{
+    margin-top: 70px !important;
+    padding-bottom: 50px;
+}
+
+.carousel-root .carousel .control-dots
+{
+    bottom: 0px;
+}
+
+.carousel-root .carousel .control-dots .selected
+{
+    background-color: #fc60a8 !important;
+    opacity: 1;
+}
+
+/*Carousel End*/
+
+.reviews-bloc
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.review
+{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin: 10px !important;
+    padding: 25px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 0px rgba(71, 25, 159, 0.4);
+}
+
+.review .bloc1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 5px;
+    border-right: #fc60a8 2px solid;
+}
+
+.review .bloc1 .avatar
+{
+    background-color: #fc60a8;
+    font-size: 13px;
+}
+
+.review .bloc1 .name
+{
+    color: #fc60a8;
+    font-size: 13px;
+    margin: 5px 0;
+    text-align: start;
+}
+
+.review .bloc2 
+{
+    padding: 0 10px;
+}
+
+.review .bloc2 p
+{
+    text-align: justify;
+    color: #47199F;
+    font-size: 15px;
+}

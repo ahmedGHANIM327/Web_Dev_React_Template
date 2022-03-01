@@ -1,0 +1,62 @@
+/* Footer section styles */
+#footer
+{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* General styles for icons */
+#footer svg
+{
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#footer svg:hover
+{
+    transform: scale(1.1);
+}
+
+/* Styles for icons to top*/
+#footer .top svg
+{
+    background-color: #fc60a8;
+    border-radius: 50%;
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+}
+
+/* Styles for social icons */
+#footer .social-icons
+{
+    margin: 15px 0;
+}
+
+#footer .social-icons svg
+{
+    margin: 0 5px;
+    color: #47199F;
+}
+
+/* Styles for footer texte*/
+#footer .copyrights
+{
+    color: #47199F;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#footer .copyrights a
+{
+    text-decoration: none;
+    transition: all 1s;
+}
+
+#footer .copyrights a:hover
+{
+    color: #fc60a8;
+}
+
